@@ -14,13 +14,15 @@
   "author": "Ricardo Sierra",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.1.3",
     "@sentry/node": "^4.3.2",
     "body-parser": "^1.18.2",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "ip": "^1.1.5",
     "mongoose": "^5.0.3",
     "request": "^2.83.0",
-    "simple-node-logger": "^0.93.37"
+    "simple-node-logger": "^0.93.37",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
