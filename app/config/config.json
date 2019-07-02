@@ -1,0 +1,61 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "Chat",
+        "app_desc": "Chat - Using socket.io",
+        "json_indentation": 4,
+        "PORT": "3001",
+        "HOST_API": "http://localhost",
+    },
+    "local": {
+        "config_id": "local",
+        "PORT": "3001",
+        "HOST_API": "https:/node/",
+        "HOST_MONGO": "localhost",
+        "HOST_MONGO_USER": "root",
+        "HOST_MONGO_PASSWORD": "A123456",
+        "HOST_MONGO_DATABASE": "db_chat"
+    },
+    "docker": {
+        "config_id": "development",
+        "PORT": "81",
+        "HOST_API": "http://node/",
+        "HOST_MONGO": "mongo",
+        "HOST_MONGO_USER": "root",
+        "HOST_MONGO_PASSWORD": "A123456",
+        "HOST_MONGO_DATABASE": "db_chat",
+        "CLIENT_BUILD_PATH": "/usr/client/build"
+    },
+    "testing": {
+        "config_id": "testing"
+    },
+    "staging": {
+        "config_id": "staging",
+        "PORT": "81",
+        "HOST_API": "https:/node/",
+        "HOST_MONGO": "mongo",
+        "HOST_MONGO_USER": "root",
+        "HOST_MONGO_PASSWORD": "A123456",
+        "HOST_MONGO_DATABASE": "db_chat",
+        "CLIENT_BUILD_PATH": "/usr/client/build"
+    },
+    "production": {
+        "config_id": "production",  
+        "PORT": "81",
+        "HOST_API": "https:/node/",
+        "HOST_MONGO": "mongo",
+        "HOST_MONGO_USER": "root",
+        "HOST_MONGO_PASSWORD": "A123456",
+        "HOST_MONGO_DATABASE": "db_chat",
+        "CLIENT_BUILD_PATH": "/usr/client/build"
+    },
+    "windows": {
+        "config_id": "windows",
+        "PORT": "81",
+        "HOST_MONGO": "localhost",
+        "HOST_MONGO_USER": "root",
+        "HOST_MONGO_PASSWORD": "A123456",
+        "HOST_MONGO_DATABASE": "db_chat",
+        "CLIENT_BUILD_PATH": "C:\\Users\\Sierra\\chat\\client\\build"
+    }
+}

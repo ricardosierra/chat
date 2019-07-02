@@ -4,10 +4,9 @@ LIVE CHAT
 
 # About
 
-Test Nodejs
+Chat using socket.io and react hooks
 
 # Install
-
 
 ## Ubuntu
 
@@ -15,7 +14,7 @@ Test Nodejs
 
 nvm use stable && 
 npm install && 
-cd app && npm install
+cd app && npm install && cd ../
 ```
 
 ## Iniciar

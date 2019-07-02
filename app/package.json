@@ -1,0 +1,28 @@
+{
+  "name": "chat-backend",
+  "version": "0.1.0",
+  "description": "Chat Socket Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node index.js",
+    "client": "",
+    "test": "jest"
+  },
+  "author": "RicardoSierra",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^4.3.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "ip": "^1.1.5",
+    "mongoose": "^5.0.3",
+    "request": "^2.83.0",
+    "simple-node-logger": "^0.93.37"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.14.7"
+  }
+}

@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 const exec = require('child_process').exec;
-const eventService = require('../services/event');
+// const chatService = require('../services/chat');
 
 
 function checkingConnectionMongo(){
