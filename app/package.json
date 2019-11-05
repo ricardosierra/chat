@@ -16,7 +16,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "ip": "^1.1.5",
-    "mongoose": "^5.0.3",
+    "mongoose": "^5.7.5",
     "request": "^2.83.0",
     "simple-node-logger": "^0.93.37"
   },
